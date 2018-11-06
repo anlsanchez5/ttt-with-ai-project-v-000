@@ -20,4 +20,9 @@ elsif game_type == "2"
 else
 end
 
-
+puts "Would you like to play again?"
+user_input = gets.strip
+if user_input == "yes"
+  self.start
+else
+end
