@@ -142,10 +142,8 @@ class Game
     puts "Would you like to play again?"
     user_input = gets.strip
     if user_input == "yes"
-      self.start
+      start
     else
     end
   end
-
-
 end
