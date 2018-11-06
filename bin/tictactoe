@@ -12,11 +12,10 @@ elsif game_type == "1"
   first_player = gets.strip
     if first_player == "Al"
       Game.new(Players::Computer.new("X"), Players::Human.new("O"))
-    else 
+    else
       Game.new(Players::Human.new("X"), Players::Computer.new("O"))
     end
 elsif game_type == "2"
   Game.new(Players::Human.new("X"), Players::Human.new("O"))
 else
 end
-  
